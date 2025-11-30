@@ -15,6 +15,10 @@ export default defineConfig({
       { text: '架构', link: '/architecture/' },
       { text: '关于', link: '/about/' }
     ],
+    outline: {
+      level: [2, 4], // 显示 h2~h4 级别的标题（对应页面的 ##/###...）
+      label: '本页导航' // 自定义大纲标题（可选）
+    },
 
     sidebar: {
       '/posts/': [
