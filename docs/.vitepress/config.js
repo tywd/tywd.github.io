@@ -12,6 +12,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '博客', link: '/posts/' },
+      { text: '架构', link: '/architecture/' },
       { text: '关于', link: '/about/' }
     ],
 
@@ -26,6 +27,18 @@ export default defineConfig({
             { text: '为 VitePress 博客选择和集成主题', link: '/posts/vitepress-themes' },
             { text: '博客搭建总结与未来规划', link: '/posts/conclusion' },
             { text: 'GitHub Pages 部署指南', link: '/posts/github-pages-deployment' }
+          ]
+        }
+      ],
+
+      '/architecture/': [
+        {
+          text: '架构文章',
+          items: [
+            { text: '前端架构分类', link: '/architecture/architecture-type' },
+            { text: '多端架构', link: '/architecture/architecture-multi-end' },
+            { text: '其他主流架构', link: '/architecture/architecture-other' },
+            { text: '前端架构演进', link: '/architecture/architecture-evolution' }
           ]
         }
       ]

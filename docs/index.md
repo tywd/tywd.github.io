@@ -19,6 +19,8 @@ hero:
 features:
   - title: 前端技术
     details: 分享Vue、React、Vite等前端框架和技术的使用心得
+  - title: 项目架构
+    details: 分享项目架构设计、模块化开发、代码组织等方面的实践经验
   - title: 工程化实践
     details: 记录项目构建、部署、性能优化等方面的实践经验
   - title: 学习笔记
