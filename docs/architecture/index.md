@@ -6,3 +6,5 @@
 
 - [前端架构分类](./architecture-type.md)
 - [多端架构](./architecture-multi-end.md)
+- [其他架构](./architecture-other.md)
+- [前端架构演进](./architecture-evolution.md)

@@ -13,6 +13,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '博客', link: '/posts/' },
       { text: '架构', link: '/architecture/' },
+      { text: '工具', link: '/tools/' },
       { text: '关于', link: '/about/' }
     ],
     outline: {
@@ -43,6 +44,15 @@ export default defineConfig({
             { text: '多端架构', link: '/architecture/architecture-multi-end' },
             { text: '其他主流架构', link: '/architecture/architecture-other' },
             { text: '前端架构演进', link: '/architecture/architecture-evolution' }
+          ]
+        }
+      ],
+
+      '/tools/': [
+        {
+          text: '工具文章',
+          items: [
+            { text: '前端性能优化检测工具', link: '/tools/performance-optimization' },
           ]
         }
       ]
